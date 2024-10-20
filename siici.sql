@@ -2475,7 +2475,7 @@ CREATE TABLE `wp_revslider_css` (
   `hover` longtext,
   `advanced` longtext,
   `params` longtext NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `wp_revslider_css`
@@ -2608,7 +2608,7 @@ CREATE TABLE `wp_revslider_layer_animations` (
   `handle` text NOT NULL,
   `params` text NOT NULL,
   `settings` text
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -2624,7 +2624,7 @@ CREATE TABLE `wp_revslider_navigations` (
   `css` longtext NOT NULL,
   `markup` longtext NOT NULL,
   `settings` longtext
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `wp_revslider_navigations`
@@ -2647,7 +2647,7 @@ CREATE TABLE `wp_revslider_sliders` (
   `params` longtext NOT NULL,
   `settings` text,
   `type` varchar(191) NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `wp_revslider_sliders`
@@ -2672,7 +2672,7 @@ CREATE TABLE `wp_revslider_sliders7` (
   `params` longtext NOT NULL,
   `settings` text,
   `type` varchar(191) NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -2687,7 +2687,7 @@ CREATE TABLE `wp_revslider_slides` (
   `params` longtext NOT NULL,
   `layers` longtext NOT NULL,
   `settings` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `wp_revslider_slides`
@@ -2732,7 +2732,7 @@ CREATE TABLE `wp_revslider_slides7` (
   `layers` longtext NOT NULL,
   `settings` text NOT NULL,
   `static` varchar(191) NOT NULL DEFAULT ''
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -2746,7 +2746,7 @@ CREATE TABLE `wp_revslider_static_slides` (
   `params` longtext NOT NULL,
   `layers` longtext NOT NULL,
   `settings` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
