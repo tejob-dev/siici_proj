@@ -1,0 +1,214 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-25 10:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/class-service.php:67 inc/class-service.php:414 inc/class-service.php:504
+#: inc/class-service.php:609
+msgctxt "slug"
+msgid "service"
+msgstr ""
+
+#: inc/class-service.php:71
+msgctxt "Post Type General Name"
+msgid "Services"
+msgstr ""
+
+#: inc/class-service.php:72
+msgctxt "Post Type Singular Name"
+msgid "Services"
+msgstr ""
+
+#: inc/class-service.php:73 inc/class-service.php:86
+msgid "Services"
+msgstr ""
+
+#: inc/class-service.php:74
+msgid "Parent Services"
+msgstr ""
+
+#: inc/class-service.php:75
+msgid "All Services"
+msgstr ""
+
+#: inc/class-service.php:76
+msgid "View Services"
+msgstr ""
+
+#: inc/class-service.php:77
+msgid "Add New Service"
+msgstr ""
+
+#: inc/class-service.php:78
+msgid "Add New"
+msgstr ""
+
+#: inc/class-service.php:79
+msgid "Edit Service"
+msgstr ""
+
+#: inc/class-service.php:80
+msgid "Update Service"
+msgstr ""
+
+#: inc/class-service.php:81
+msgid "Search Services"
+msgstr ""
+
+#: inc/class-service.php:82
+msgid "Not found"
+msgstr ""
+
+#: inc/class-service.php:83
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/class-service.php:87
+msgid "Create and manage all services"
+msgstr ""
+
+#: inc/class-service.php:122
+msgctxt "slug"
+msgid "service-cat"
+msgstr ""
+
+#: inc/class-service.php:125
+msgid "Categories"
+msgstr ""
+
+#: inc/class-service.php:126
+msgid "Category"
+msgstr ""
+
+#: inc/class-service.php:127
+msgid "Search Category"
+msgstr ""
+
+#: inc/class-service.php:128
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-service.php:129
+msgid "Parent Category"
+msgstr ""
+
+#: inc/class-service.php:130
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/class-service.php:131
+msgid "Edit Category"
+msgstr ""
+
+#: inc/class-service.php:132
+msgid "Update Category"
+msgstr ""
+
+#: inc/class-service.php:133
+msgid "Add New Category"
+msgstr ""
+
+#: inc/class-service.php:134
+msgid "New Category Name"
+msgstr ""
+
+#: inc/class-service.php:135
+msgctxt "Category Taxonomy Menu"
+msgid "Categories"
+msgstr ""
+
+#: inc/class-service.php:162
+msgid "Image"
+msgstr ""
+
+#: inc/class-service.php:192
+msgid "Service"
+msgstr ""
+
+#: inc/class-service.php:199
+msgid "Service page"
+msgstr ""
+
+#: inc/class-service.php:215
+msgid "Service Item Permalink"
+msgstr ""
+
+#: inc/class-service.php:222
+msgid "Service category base"
+msgstr ""
+
+#: inc/class-service.php:241
+msgid "Use these settings to control custom post type content"
+msgstr ""
+
+#: inc/class-service.php:253
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/class-service.php:267
+msgctxt "Service category base"
+msgid "service-cat"
+msgstr ""
+
+#: inc/class-service.php:281 inc/class-service.php:282
+#: inc/class-service.php:424
+msgctxt "Default slug"
+msgid "service"
+msgstr ""
+
+#: inc/class-service.php:291
+msgid ""
+"Use these settings to control the permalink used specifically for service."
+msgstr ""
+
+#: inc/class-service.php:300
+msgid "Default"
+msgstr ""
+
+#: inc/class-service.php:313
+msgid "Service base"
+msgstr ""
+
+#: inc/class-service.php:325
+msgid "Service base with category"
+msgstr ""
+
+#: inc/class-service.php:335
+msgid "Custom Base"
+msgstr ""
+
+#: inc/class-service.php:565
+msgctxt "slug"
+msgid "uncategorized"
+msgstr ""
+
+#. Name of the plugin
+msgid "STH Service"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create and manage services in the easiest way."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo2.steelthemes.com/plugins/sth-service.zip"
+msgstr ""
+
+#. Author of the plugin
+msgid "SteelThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://demo2.steelthemes.com/"
+msgstr ""

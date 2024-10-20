@@ -1,0 +1,37 @@
+body.boxed {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+.boxed {
+	.site {
+		max-width: 1270px;
+		margin: 0 auto;
+		position: relative;
+		background-color: transparent;
+		overflow: hidden;
+	}
+
+	.site-content {
+		background-color: @light;
+	}
+
+	&.header-sticky {
+		&.header-v3 {
+			.site-header.minimized {
+				max-width: 1270px;
+			}
+		}
+
+		&.header-v1,
+		&.header-v2,
+		&.header-v4 {
+			.site-header.minimized .site-menu {
+				max-width: 1270px;
+				transform: translateX(-50%);
+				left: 50%;
+			}
+		}
+	}
+}

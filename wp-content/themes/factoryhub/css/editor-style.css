@@ -1,0 +1,533 @@
+/*
+Theme Name: Naix
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Galleries
+ */
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	color: #848484;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	background: #fff;
+	word-wrap: break-word;
+	overflow-x: hidden;
+	font-weight: 300;
+}
+
+/**
+ * 2.0 - Typography
+ */
+
+a {
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	color: #222;
+	text-decoration: none;
+}
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: #222;
+}
+
+a img {
+	border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
+	color: #222;
+}
+
+h1 {
+	font-size: 41px;
+}
+h2 {
+	font-size: 34px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h1 {
+	font-size: 41px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h2 {
+	font-size: 34px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h3 {
+	font-size: 28px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h4 {
+	font-size: 20px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h5 {
+	font-size: 16px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce h6 {
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: disc;
+	padding-left: 20px;
+}
+
+ul ul {
+	list-style: disc;
+}
+
+ul, ol {
+	margin: 0 0 1.5em;
+	padding-left: 1.5em;
+}
+
+dd, li {
+	margin-bottom: 0;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+li {
+	margin-bottom: 7px;
+}
+
+p {
+	margin-bottom: 1.7em;
+	margin-top: 0;
+}
+
+.mce-content-body {
+	line-height: 1.6;
+}
+
+.has-small-font-size {
+	font-size: 13px;
+}
+
+.has-normal-font-size, .has-regular-font-size {
+	font-size: 16px;
+}
+
+.has-large-font-size {
+	font-size: 36px;
+}
+
+
+/**
+ * 3.0 - Elements
+ */
+
+hr {
+	background-color: #bbb;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+img {
+	height: auto; /* Make sure images are scaled correctly. */
+	width: inherit;  /* Make images fill their parent's space. Solves IE8. */
+	max-width: 100%; /* Adhere to container width. */
+}
+input[type=text],
+textarea {
+	border: 1px solid #555;
+	background: #fff;
+}
+
+blockquote {
+	font-size: 16px;
+	font-style: italic;
+	padding: 15px 0 15px 20px;
+	margin: 35px 0 35px 40px;
+	line-height: 2;
+	border-left: 3px solid #ffc811;
+}
+
+blockquote p {
+	font-size: 16px;
+	line-height: 2;
+}
+
+blockquote p:last-child{
+	margin-bottom: 0;
+}
+
+blockquote cite {
+	display: block;
+	font-style: normal;
+	color: #000;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	position: relative;
+	margin-top: 30px;
+}
+
+.wp-block-quote,
+.wp-block-quote.is-large,
+.wp-block-quote.is-style-large {
+	margin: 0;
+	padding: 20px;
+}
+
+.wp-block-quote.is-large cite,
+.wp-block-quote.is-large .wp-block-quote__citation,
+.wp-block-quote.is-style-large cite,
+.wp-block-quote.is-style-large .wp-block-quote__citation {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.wp-block-pullquote.alignleft, .wp-block-pullquote.alignright {
+	max-width: 305px;
+}
+
+.wp-block-pullquote.alignleft p,
+.wp-block-pullquote.alignright p,
+.wp-block-pullquote.alignleft blockquote > .editor-rich-text p,
+.wp-block-pullquote.alignright blockquote > .editor-rich-text p {
+	font-size: 20px;
+}
+
+.wp-block-pullquote cite,
+.wp-block-pullquote footer,
+.wp-block-pullquote__citation {
+	margin-top: 1em;
+}
+
+.wp-block-pullquote .wp-block-pullquote__citation {
+	color: #40464d;
+	font-weight: normal;
+}
+
+.wp-block-pullquote {
+	color: #848484;
+	padding: 35px 0 35px 35px;
+	text-align: initial;
+}
+
+.wp-block-pullquote blockquote {
+	margin: 0;
+	padding: 20px;
+}
+
+.wp-block-pullquote.alignleft{
+	text-align: left;
+	padding-left: 0;
+}
+
+.wp-block-pullquote.alignright{
+	text-align: right;
+	padding-left: 0;
+}
+
+.wp-block-pullquote.alignright blockquote {
+	border-right: 3px solid #ffc811;
+	border-left: 0;
+}
+
+.wp-block-pullquote.aligncenter blockquote {
+	border-left: 0;
+	padding: 0;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+kbd{
+	padding: 2px 4px;
+	background-color: #333;
+	color: #fff;
+	border-radius: 3px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce code {
+	border-radius: 4px;
+	padding: 2px 4px;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	font-size: 1em;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce blockquote{
+	border-color: #ffc811;
+	padding: 15px 0 15px 20px;
+	margin: 35px 0 35px 40px;
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce a {
+	color: #222;
+}
+
+pre {
+	background: #f5f5f5;
+	font-family: monospace;
+	line-height: 1.42857143;
+	max-width: 100%;
+	overflow: auto;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	word-break: break-all;
+	word-wrap: break-word;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	color: #333;
+}
+
+.wp-block-preformatted pre {
+	white-space: nowrap;
+	line-height: 1.42857143;
+}
+
+.wp-caption-text,
+.wp-caption-dd {
+	text-align: center;
+}
+
+.wp-block-gallery {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+}
+
+caption,
+td,
+th {
+	padding: 0;
+	font-weight: 300;
+	text-align: left;
+}
+
+table,
+th,
+td {
+	border: 1px solid #f4f4f4;
+}
+
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 1px 1px 0;
+}
+
+th,
+td {
+	padding: 0.4375em;
+}
+
+dd,
+dl {
+	margin: 0 0 1.75em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+embed,
+iframe,
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.is-style-outline .wp-block-button__link {
+	border-width: 1px;
+	background: 0 0;
+}
+
+ul.wp-block-latest-posts,
+.wp-block-latest-posts ul,
+ul.wp-block-categories,
+.wp-block-categories ul,
+.wp-block-archives  ul,
+ul.wp-block-archives  {
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+.wp-block-latest-posts ul,
+.wp-block-archives ul,
+.wp-block-categories ul{
+	padding-left: 20px;
+}
+
+.wp-block-latest-posts li,
+.wp-block-archives  li,
+.wp-block-categories li {
+	padding: 5px 0;
+	margin-bottom: 0;
+}
+
+.wp-block-latest-posts li:last-child,
+.wp-block-archives li:last-child,
+.wp-block-categories li:last-child {
+	padding-bottom: 0;
+}
+
+.wp-block-archives li a,
+.wp-block-latest-posts li a,
+.wp-block-categories li a {
+	color: #000;
+}
+
+.wp-block-archives li a:hover,
+.wp-block-latest-posts li a:hover,
+.wp-block-categories li a:hover {
+	color: #999;
+}
+
+.wp-block-categories select {
+	padding: 10px;
+	border: 1px solid #d9d9d9;
+	line-height: 1;
+	height: auto;
+	border-radius: 0;
+	color: #666;
+	font-family: inherit;
+	font-size: 16px;
+}
+
+.wp-block-table,
+.wp-block-table td,
+.wp-block-table th{
+	border: 1px solid;
+}
+
+.wp-block-table .wp-block-table__cell-content {
+	padding: 0;
+}
+
+.wp-block-image {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/**
+ * 4.0 - Alignment
+ */
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+/**
+ * 5.0 - Galleries
+ */
+
+.gallery {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin: 30px 0 0 0;
+	padding: 0 15px;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-columns-10 .gallery-item {
+	max-width: 10%;
+}
+
+.gallery-caption {
+	display: block;
+}

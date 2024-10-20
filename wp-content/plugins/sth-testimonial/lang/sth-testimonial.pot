@@ -1,0 +1,215 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-25 10:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/class-testimonial.php:63 inc/class-testimonial.php:410
+#: inc/class-testimonial.php:500 inc/class-testimonial.php:605
+msgctxt "slug"
+msgid "testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:67
+msgctxt "Post Type General Name"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/class-testimonial.php:68
+msgctxt "Post Type Singular Name"
+msgid "Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:69
+msgid "Testimonials"
+msgstr ""
+
+#: inc/class-testimonial.php:70
+msgid "Parent Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:71
+msgid "All Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:72
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:73
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:74
+msgid "Add New"
+msgstr ""
+
+#: inc/class-testimonial.php:75
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:76
+msgid "Update Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:77
+msgid "Search Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:78
+msgid "Not found"
+msgstr ""
+
+#: inc/class-testimonial.php:79
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/class-testimonial.php:82 inc/class-testimonial.php:188
+msgid "Testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:83
+msgid "Create and manage all testimonials"
+msgstr ""
+
+#: inc/class-testimonial.php:118
+msgctxt "slug"
+msgid "testimonial-cat"
+msgstr ""
+
+#: inc/class-testimonial.php:121
+msgid "Categories"
+msgstr ""
+
+#: inc/class-testimonial.php:122
+msgid "Category"
+msgstr ""
+
+#: inc/class-testimonial.php:123
+msgid "Search Category"
+msgstr ""
+
+#: inc/class-testimonial.php:124
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-testimonial.php:125
+msgid "Parent Category"
+msgstr ""
+
+#: inc/class-testimonial.php:126
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/class-testimonial.php:127
+msgid "Edit Category"
+msgstr ""
+
+#: inc/class-testimonial.php:128
+msgid "Update Category"
+msgstr ""
+
+#: inc/class-testimonial.php:129
+msgid "Add New Category"
+msgstr ""
+
+#: inc/class-testimonial.php:130
+msgid "New Category Name"
+msgstr ""
+
+#: inc/class-testimonial.php:131
+msgctxt "Category Taxonomy Menu"
+msgid "Categories"
+msgstr ""
+
+#: inc/class-testimonial.php:158
+msgid "Image"
+msgstr ""
+
+#: inc/class-testimonial.php:195
+msgid "Testimonial page"
+msgstr ""
+
+#: inc/class-testimonial.php:211
+msgid "Testimonial Item Permalink"
+msgstr ""
+
+#: inc/class-testimonial.php:218
+msgid "Testimonial category base"
+msgstr ""
+
+#: inc/class-testimonial.php:237
+msgid "Use these settings to control custom post type content"
+msgstr ""
+
+#: inc/class-testimonial.php:249
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/class-testimonial.php:263
+msgctxt "Testimonial category base"
+msgid "testimonial-cat"
+msgstr ""
+
+#: inc/class-testimonial.php:277 inc/class-testimonial.php:278
+#: inc/class-testimonial.php:420
+msgctxt "Default slug"
+msgid "testimonial"
+msgstr ""
+
+#: inc/class-testimonial.php:287
+msgid ""
+"Use these settings to control the permalink used specifically for "
+"testimonial."
+msgstr ""
+
+#: inc/class-testimonial.php:296
+msgid "Default"
+msgstr ""
+
+#: inc/class-testimonial.php:309
+msgid "Testimonial base"
+msgstr ""
+
+#: inc/class-testimonial.php:321
+msgid "Testimonial base with category"
+msgstr ""
+
+#: inc/class-testimonial.php:331
+msgid "Custom Base"
+msgstr ""
+
+#: inc/class-testimonial.php:561
+msgctxt "slug"
+msgid "uncategorized"
+msgstr ""
+
+#. Name of the plugin
+msgid "STH Testimonial"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create and manage testimonial in the easiest way."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://demo2.steelthemes.com/plugins/factoryplus-testimonial.zip"
+msgstr ""
+
+#. Author of the plugin
+msgid "SteelThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://demo2.steelthemes.com/"
+msgstr ""
